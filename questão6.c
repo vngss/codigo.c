@@ -12,8 +12,7 @@ int main() {
         printf("O número deve ser positivo.\n");
         return 0;
     }
-
-    // Verifica se o número é uma potência de 2
+ 
     if ((numero & (numero - 1)) == 0) {
         printf("%d é uma potência de 2.\n", numero);
     } else {
