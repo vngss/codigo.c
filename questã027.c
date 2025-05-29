@@ -10,9 +10,9 @@ int main() {
     scanf("%f", &preco);
 
     if (preco < 100) {
-        novoPreco = preco * 1.10; // Aumenta 10%
+        novoPreco = preco * 1.10; 
     } else {
-        novoPreco = preco * 1.20; // Aumenta 20%
+        novoPreco = preco * 1.20;
     }
 
     printf("O novo preço do produto é: R$ %.2f\n", novoPreco);
